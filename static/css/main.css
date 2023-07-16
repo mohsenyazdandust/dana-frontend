@@ -1,0 +1,12 @@
+* {
+    transition: 0.5s;
+}
+
+body {
+    background-image: url('../img/paper-background.jpg');
+    background-size: cover;
+}
+
+body > main {
+    margin-top: 80px;
+}

@@ -1,0 +1,56 @@
+#preview #img {
+    width: 70%;
+    display: inline-block;
+}
+
+#preview #img-container {
+    position: relative;
+}
+
+#preview #img #source {
+    display: inline-block;
+    width: 100%;
+}
+
+#preview a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1a1aad;
+    right: 0;
+    top: 0;
+}
+
+#preview #preview-icon {
+    position: absolute;
+    right: calc(50% - 20px);
+    top: calc(50% - 20px);
+    width: 40px;
+}
+
+#preview a:hover #preview-icon {
+    transform: scale(1.3);
+}
+
+#preview #img h3 {
+    position: absolute;
+    z-index: 1;
+    background: red;
+    color: white;
+    padding: 5px 15px;
+    rotate: -45deg;
+    left: -20px;
+    top: -5px;
+}
+
+#preview #stars {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    direction: ltr;
+}
+
+#preview #stars img {
+    display: block;
+    width: 35px;
+}
