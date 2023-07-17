@@ -1,0 +1,39 @@
+/* COLORS */
+:root {
+    --primary-color: #FDE74C;
+    --secondary-color: #379634;
+    --tertiary-color: #222E50;
+    --gray: #888;
+}
+
+/* FONTS */
+@font-face { 
+    font-family: 'Pinar';
+    src: url('../fonts/Pinar-DS1-FD.woff') format('woff');
+}
+
+@font-face { 
+    font-family: 'Estedad';
+    src: url('../fonts/Estedad-VF-FD.woff2') format('woff2-variations');
+}
+
+/* SET UPS */
+body {
+    margin: 0;
+}
+
+body, p, a, ul, li, input, button {
+    font-family: Estedad !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Pinar !important;
+}
+
+p {
+    font-variation-settings: "wght" 200;
+}
+
+* {
+    transition: 1s;
+}

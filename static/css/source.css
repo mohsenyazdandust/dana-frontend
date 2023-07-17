@@ -1,0 +1,124 @@
+main {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding-bottom: 65px;
+}
+
+#info {
+    margin: 20px;
+    margin-top: 0;
+    text-align: right;
+}
+
+#title {
+    margin: 0;
+    font-size: 20px;
+}
+
+#teacher {
+    margin: 0px;
+    font-size: 18px;
+    color: gray;
+}
+
+#preview {
+    display: inline-block;
+    width: 250px;
+    position: relative;
+}
+
+#preview img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem #0002;
+
+}
+
+#preview a {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: var(--tertiary-color);
+    left: -15px;
+    top: -15px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#preview a img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+#summary-cart {
+    display: inline-block;
+    width: 90%;
+    margin: 20px 0;
+    box-shadow: 0 0 2rem #0002;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    background: linear-gradient(8deg, #fff0, #fff2, #fff3);
+}
+
+#summary-cart ul {
+    padding: 0;
+}
+
+#summary-cart li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    margin:0;
+}
+
+#summary-cart p {
+    margin: 0px;
+}
+
+#summary-cart .value img {
+    width: 20px;
+    vertical-align: middle;
+    
+}
+
+#summary-cart .title {
+    color: gray;
+}
+
+#summary-cart .value {
+    font-weight: bold;
+}
+
+#details {
+    background: white;
+    text-align: right;
+    padding: 2px 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+}
+
+#details h3 {
+    margin-top: 10px;
+}
+
+#buy-btn {
+    position: fixed;
+    width: 100%;
+    background: white;
+    bottom:0;
+    right:0;
+}
+
+#buy-btn p {
+    display: inline-block;
+    width: 90%;
+    color: white;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px 0;
+    margin: 10px auto;
+    font-variation-settings: "wght" 500;
+}
