@@ -5,6 +5,7 @@
 body {
     background-image: url('../img/paper-background.jpg');
     background-size: cover;
+    margin: 0;
 }
 
 body > main {

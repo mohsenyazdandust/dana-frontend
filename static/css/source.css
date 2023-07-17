@@ -1,5 +1,7 @@
+/* PREVIEW SECTION */
 #preview #img {
-    width: 70%;
+    width: 65%;
+    margin-right: 2%;
     display: inline-block;
 }
 
@@ -53,4 +55,23 @@
 #preview #stars img {
     display: block;
     width: 35px;
+}
+
+/* DETAILS SECTION */
+#details {
+    background: red;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-top-left-radius: 200px;
+}
+
+#details #source-header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+#details #source-header h2 {
+    color: white;
+    font-size: 20px;
 }
