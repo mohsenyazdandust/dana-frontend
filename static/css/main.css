@@ -8,4 +8,21 @@
 #simple-header #back-btn img {
     width: 40px;
     height: 40px;
+    background: white;
+    border-radius: 10px;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--tertiary-color);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
