@@ -8,4 +8,12 @@
         width: 60px;
         height: 60px;
     }
+    
+    #messages {
+        width: 485px;   
+    }
+
+    #messages .message {
+        padding: 10px;
+    }
 }

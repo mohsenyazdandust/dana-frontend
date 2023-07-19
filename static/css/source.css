@@ -165,19 +165,19 @@ main {
 }
 
 #evaluation li:nth-child(1) {
-    background: #EF8A17;
+    background: var(--yellow);
 }
 
 #evaluation li:nth-child(2) {
-    background: #008148;
+    background: var(--green);
 }
 
 #evaluation li:nth-child(3) {
-    background: #EF2917;
+    background: var(--red);
 }
 
 #evaluation li:nth-child(4) {
-    background: #A42CD6;
+    background: var(--purple);
 }
 
 #comments {
@@ -316,10 +316,6 @@ main {
 
 
 /* ANIMATION */
-.icon:not(.profile-picture):hover {
-    transform: scale(1.15)
-}
-
 #evaluation li:hover {
     transform: translateY(-10px)
 }

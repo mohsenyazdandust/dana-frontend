@@ -10,7 +10,7 @@
     background: white;
 }
 
-
+/* ICONS */
 .icon {
     display: inline-block;
     width: 40px;
@@ -39,4 +39,90 @@
     width: 20px;
     height: 20px;
     transform: scaleX(-1);
+}
+
+/* MESSAGES */
+#messages {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-height: 100vh;
+    z-index: 2;
+    overflow: auto;
+}
+
+#messages .message {
+    box-shadow: 0 0 2rem #0002;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    background: linear-gradient(8deg, #fff0, #fff2, #fff3);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#messages .icon-container {
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+}
+
+#messages .message-container {
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+#messages .icon {
+    margin: 5px;
+}
+
+#messages .title {
+    font-family: Pinar !important;
+    margin: 5px 0;
+}
+
+#messages .detail {
+    margin: 0;
+}
+
+.message.success .icon {
+    background: var(--green);    
+}
+
+.message.fail .icon {
+    background: var(--red);
+}
+
+.message.warning .icon {
+    background: var(--yellow);
+}
+
+.message.info .icon {
+    background: var(--blue);
+}
+
+.message.success .title {
+    color: var(--green);    
+}
+
+.message.fail .title {
+    color: var(--red);
+}
+
+.message.warning .title {
+    color: var(--yellow);
+}
+
+.message.info .title {
+    color: var(--blue);
+}
+
+/* ANIMATION */
+.icon:not(.profile-picture):hover {
+    transform: scale(1.15)
+}
+
+#messages .message:hover {
+    transform: scale(1.03);
 }
