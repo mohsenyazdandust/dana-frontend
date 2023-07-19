@@ -25,6 +25,7 @@ main {
 
 #preview {
     display: inline-block;
+    margin: 0 calc(50% - 130px);
     width: 250px;
     position: relative;
 }
@@ -47,6 +48,7 @@ main {
 #summary-cart {
     display: inline-block;
     width: 90%;
+    max-width: 400px;
     margin: 20px 0;
     box-shadow: 0 0 2rem #0002;
     backdrop-filter: blur(15px);
@@ -188,6 +190,7 @@ main {
     margin: 0;
     margin-left: 5px;
     border: none;
+    cursor: pointer;
 }
 
 #comments form input {
@@ -213,6 +216,8 @@ main {
 .comment .text {
     width: calc(100% - 70px);
     padding: 5px;
+    
+        vertical-align: top;
 }
 
 .comment .text h6 {
@@ -224,6 +229,14 @@ main {
     font-size: 14px;
 }
 
+#empty-comments {
+    text-align: center;
+}
+
+#empty-comments img {
+    width:250px;
+}
+
 #buy-btn {
     position: fixed;
     width: 100%;
@@ -232,16 +245,70 @@ main {
     right:0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
- 
 }
 
 #buy-btn p {
     display: inline-block;
     width: 90%;
+    max-width: 450px;
     color: white;
     background: var(--secondary-color);
     border-radius: 10px;
     padding: 15px 0;
     margin: 10px auto;
     font-variation-settings: "wght" 500;
+    box-shadow: 0 0 0.7rem #888;
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 500px) {
+    #preview {
+        margin: 0 calc(50% - 180px);
+        width: 350px;
+    }
+
+    #details {
+        padding: 10px 50px;
+    }
+    
+    #evaluation li {
+        width: 80px;
+        margin: 2px 6px;
+        padding: 10px 0;
+    }
+
+    #evaluation span {
+        width: 60px;
+        padding: 15px 1px;
+    }
+
+    #empty-comments img {
+        width:350px;
+    }
+    
+    .comment {
+        padding: 10px;
+    }
+
+    
+    .comment .text {
+        width: calc(100% - 100px);
+        padding: 5px;
+        vertical-align: top;
+    }
+    
+    .comment .text h6 {
+        font-size: 15px;
+    }
+    
+    .comment .profile-picture {
+        width: 70px;
+        height: 70px;
+    }
+
+    .comment .profile-picture img {
+        width: 60px;
+        height: 60px;
+    }
 }
