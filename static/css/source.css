@@ -207,6 +207,7 @@ main {
     margin: 10px 0;
     padding: 5px;
     border-radius: 10px;
+    border: 2px solid var(--primary-color);
 }
 
 .comment div {
@@ -216,8 +217,7 @@ main {
 .comment .text {
     width: calc(100% - 70px);
     padding: 5px;
-    
-        vertical-align: top;
+    vertical-align: top;
 }
 
 .comment .text h6 {
@@ -258,6 +258,7 @@ main {
     margin: 10px auto;
     font-variation-settings: "wght" 500;
     box-shadow: 0 0 0.7rem #888;
+    cursor: pointer;
 }
 
 
@@ -311,4 +312,22 @@ main {
         width: 60px;
         height: 60px;
     }
+}
+
+
+/* ANIMATION */
+.icon:not(.profile-picture):hover {
+    transform: scale(1.15)
+}
+
+#evaluation li:hover {
+    transform: translateY(-10px)
+}
+
+.comment:hover {
+    border-bottom: 2px dashed var(--tertiary-color);
+}
+
+#buy-btn p:hover {
+    background: var(--tertiary-color)
 }
