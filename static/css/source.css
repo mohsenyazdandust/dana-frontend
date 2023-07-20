@@ -1,3 +1,4 @@
+/* SETTING */
 main {
     text-align: center;
     background-color: var(--primary-color);
@@ -6,6 +7,7 @@ main {
     padding-bottom: 50px;
 }
 
+/* INFO SECTION */
 #info {
     margin: 20px;
     margin-top: 0;
@@ -85,6 +87,7 @@ main {
     font-variation-settings: "wght" 500;
 }
 
+/* DETAILS SECTION */
 #details {
     background: white;
     text-align: right;
@@ -98,7 +101,6 @@ main {
     margin-top: 10px;
 }
 
-
 #username {
     vertical-align: top;
     display: inline-block;
@@ -110,6 +112,7 @@ main {
     margin-top: 5px;
 }
 
+/* TABLE SECTION */
 #publish-info table {
     width: 100%;    
 }
@@ -130,6 +133,7 @@ main {
     border-bottom: none;
 }
 
+/* EVALUATION SECTION */
 #evaluation {
     text-align: center;
 }
@@ -180,6 +184,7 @@ main {
     background: var(--purple);
 }
 
+/* COMMENTS SECTION */
 #comments {
     padding-bottom: 40px;
 }
@@ -237,6 +242,7 @@ main {
     width:250px;
 }
 
+/* BUYING SECTION */
 #buy-btn {
     position: fixed;
     width: 100%;
@@ -247,7 +253,7 @@ main {
     border-top-right-radius: 15px;
 }
 
-#buy-btn p {
+#buy-btn a {
     display: inline-block;
     width: 90%;
     max-width: 450px;
@@ -258,7 +264,6 @@ main {
     margin: 10px auto;
     font-variation-settings: "wght" 500;
     box-shadow: 0 0 0.7rem #888;
-    cursor: pointer;
 }
 
 
@@ -324,11 +329,11 @@ main {
     border-bottom: 2px dashed var(--tertiary-color);
 }
 
-#buy-btn p:hover {
+#buy-btn a:hover {
     background: var(--tertiary-color);
 }
 
 /* ADD DELAYS */
-#evaluation li, .comment, #buy-btn p {
+#evaluation li, .comment, #buy-btn a {
     transition: var(--animation-delay);
 }

@@ -1,7 +1,7 @@
 let message_fade = setTimeout(
     function () {
-        $("#messages .message").fadeOut(1000);
-    }, 5000
+        $("#messages .message").fadeOut(600);
+    }, 3000
 );
 
 $("#messages .message").hover(function () {
@@ -10,6 +10,6 @@ $("#messages .message").hover(function () {
     message_fade = setTimeout(
         function () {
             $("#messages .message").fadeOut(1000);
-        }, 3000
+        }, 2000
     );
 });

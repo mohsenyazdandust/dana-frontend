@@ -53,7 +53,6 @@
 }
 
 #messages .message {
-    box-shadow: 0 0 2rem #0002;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     background: linear-gradient(8deg, #fff0, #fff2, #fff3);
