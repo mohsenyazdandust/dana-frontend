@@ -317,7 +317,7 @@ main {
 
 /* ANIMATION */
 #evaluation li:hover {
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 
 .comment:hover {
@@ -325,5 +325,10 @@ main {
 }
 
 #buy-btn p:hover {
-    background: var(--tertiary-color)
+    background: var(--tertiary-color);
+}
+
+/* ADD DELAYS */
+#evaluation li, .comment, #buy-btn p {
+    transition: var(--animation-delay);
 }

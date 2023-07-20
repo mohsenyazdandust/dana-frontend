@@ -1,5 +1,6 @@
-/* COLORS */
+/* VARIABLES */
 :root {
+    /* COLORS */
     --primary-color: #FDE74C;
     --secondary-color: #379634;
     --tertiary-color: #222E50;
@@ -10,6 +11,8 @@
     --purple: #A42CD6;
     --blue: #246EB9;
         
+    /* ANIMATIONS */
+    --animation-delay: 500ms;
 }
 
 /* FONTS */
@@ -39,10 +42,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-variation-settings: "wght" 200;
-}
-
-* {
-    transition: 0.5s;
 }
 
 a {

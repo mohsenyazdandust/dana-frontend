@@ -126,3 +126,8 @@
 #messages .message:hover {
     transform: scale(1.03);
 }
+
+/* ADD DELAYS */
+.icon:not(.profile-picture), #messages .message {
+    transition: var(--animation-delay);
+}
