@@ -117,6 +117,37 @@
     color: var(--blue);
 }
 
+/* SLIDE SHOW */
+.slide-show {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.slide-show .slide {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/* FOOTER */
+footer {
+    background: var(--primary-color);
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+#up-arrow-container {
+    margin: 0;
+    display: block;
+    text-align: left;
+}
+
+#up-arrow-container img {
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
 /* ANIMATION */
 .icon:not(.profile-picture):hover {
     transform: scale(1.15)
