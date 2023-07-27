@@ -71,7 +71,7 @@ $("#page1 button").click(function() {
     if (form1_validation()) {
         $("#page-counter span:nth-child(1)").addClass('selected');
         $("#page-counter span:nth-child(2)").removeClass('selected');
-        $("#head h3").text("تنظیمات حساب کاربریت رو هم انجام بدیم باهام...");
+        $("#head h3").text("تنظیمات حساب کاربریت رو هم انجام بدیم...");
 
         $("#page2").fadeIn();
         $("#page1").fadeOut();

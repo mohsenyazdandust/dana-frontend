@@ -1,23 +1,65 @@
-#right-side {
-    display: none;
+main {
+    text-align: left;
+    background-color: var(--primary-color);
+    background-image: url('../img/svg/smile-bg.svg');
+    background-size: 35%;
 }
 
-#main-side {
+#right-side {
+    display: none;
+    vertical-align: top;
     text-align: center;
 }
 
-#main-side #head {
+#right-side .container {
     background: var(--primary-color);
+    border-radius: 10px;
+    width: 80%;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#right-side h2 {
+    color: var(--secondary-color);
+}
+
+#right-side p {
+    margin: 5px 0;
+}
+
+#right-side p:last-child {
+    margin-top: 50px;
+}
+
+#right-side a {
+    text-decoration: underline;
+    color: var(--tertiary-color);
+    font-size: 18px;
+}
+
+#main-side {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+}
+
+#main-side #head {
+    background: var(--secondary-color);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
 #main-side #head img {
     width: 250px;
+    margin: 50px 0;
 }
 
 #main-side #head h3 {
     margin: 0;
+    color: white;
     transform: translateY(-20px);
 }
 
@@ -103,7 +145,7 @@
 #page-counter span {
     width: 20px;
     height: 20px;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     border-radius: 10px;
     display: inline-block;
     transition: var(--animation-delay);
@@ -130,12 +172,31 @@
     text-decoration: underline;
 }
 
+/* RESPONSIVE */
+@media screen and (min-width: 750px) {
+    #right-side {
+        display: inline-block;
+        width: 48%;
+    }
+    
+    #main-side {
+        width: 50%;
+    }
+    
+}
+
 /* ANIMATIONS */
 #form-container button:hover {
     background-color: var(--green);
 }
 
+
+#right-side a:hover {
+    font-size: 19px;
+}
+
+
 /* ADD DELAYS */
-#form-container button {
+#form-container button, #right-side a {
     transition: var(--animation-delay);
 }
