@@ -1,0 +1,17 @@
+#right-side {
+    display: none;
+}
+
+#simple-header {
+    background: red;
+    position: absolute;
+}
+
+#main-side {
+    background: red;
+    text-align: center;
+}
+
+#main-side #head img {
+    width: 30%;
+}

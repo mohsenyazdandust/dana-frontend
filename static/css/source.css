@@ -3,12 +3,14 @@ main {
     text-align: center;
     background-color: var(--primary-color);
     background-image: url("../img/icons-background.png");
+    background-attachment: fixed;
     background-size: 400px;
     padding-bottom: 50px;
 }
 
 /* INFO SECTION */
 #info {
+    padding-top: 40px;
     margin: 20px;
     margin-top: 0;
     text-align: right;
