@@ -31,7 +31,7 @@ body {
     margin: 0;
 }
 
-body, p, a, ul, li, input, button {
+body, p, a, ul, li, input, button, select {
     font-family: Estedad !important;
 }
 
@@ -49,6 +49,10 @@ a {
     color: unset;
 }
 
-input:focus {
+input:focus, select:focus {
     outline: none;
+}
+
+input::-ms-reveal, input::-ms-clear {
+    display: none;
 }

@@ -16,6 +16,19 @@
 </head>
 
 <body>
+    <div id="messages">
+        <!-- <div class="message fail">
+            <div class="icon-container">
+                <div class="icon">
+                    <img src="./static/img/icons/fail.png" alt="ناموفق">
+                </div>
+            </div>
+            <div class="message-container">
+                <p class="title">متاسفانه مشکلی در ثبت پیام پیش آمد!</p>
+                <p class="detail">لطفا دقایقی دیگر مجدد تلاش کنید و در صورت تکرار مشکل به پشتیبانی اطلاع دهید.</p>
+            </div>
+        </div> -->
+    </div>
     <main>
         <header id="simple-header">
             <a id="back-btn" href="#" class="icon">
@@ -26,32 +39,42 @@
             <img src="" alt="">
         </div>
         <div id="main-side">
-
+            <div id="page-counter">
+                <span></span>
+                <span class="selected"></span>
+            </div>
             <div id="head">
                 <img src="./static/img/svg/book-reading-boy.svg" alt="">
+                <h3>سلام! کمکمون کن تا همو بیشتر بشناسیم...</h3>
             </div>
             <div id="form-container">
                 <form>
                     <div class="sign-page" id="page1">
-                        <input type="text" placeholder="اسم">
-                        <input type="text" placeholder="فامیل">
-                        <select>
+                        <input type="text" placeholder="اسم" name="" class="first-name">
+                        <input type="text" placeholder="فامیل" class="last-name">
+                        <select class="university">
                             <option selected disabled>دانشگاه</option>
                             <option>دانشگاه صنعتی شیراز</option>
                         </select>
-                        <button type="button">ادامه</button>
+                        <button type="button">دیگه چی ؟</button>
                     </div>
                     <div class="sign-page" id="page2">
-                        <input type="email" placeholder="ایمیل">
-                        <input type="password" placeholder="رمز">
-                        <input type="password" placeholder="تایید رمز">
-                        <button type="submit">برو بریم!</button>
+                        <input type="email" placeholder="ایمیل" class="email">
+                        <div class="password-container">
+                            <input type="password" placeholder="رمز (حداقل 8 کاراکتر)" class="password">
+                            <img src="./static/img/icons/visible.png" alt="نمایش">
+                        </div>
+                        <div class="password-container">
+                            <input type="password" placeholder="تایید رمز" class="confirm-password">
+                            <img src="./static/img/icons/visible.png" alt="نمایش">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="rules-checkbox">
+                            <label for="rules-checkbox"><a href="#">قوانین دانا</a> رو هم قبول دارم!</label>
+                        </div>
+                        <button type="button">برو بریم!</button>
                     </div>
                 </form>
-            </div>
-            <div id="page-counter">
-                <span></span>
-                <span></span>
             </div>
         </div>
     </main>
