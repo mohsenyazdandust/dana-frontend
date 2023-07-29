@@ -1,0 +1,120 @@
+main {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+#profile-cart {
+    background: var(--primary-color);
+    display: inline-block;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transform: translateY(100px);
+}
+
+#profile-cart #head {
+    position: relative;
+    padding-top: 70px;
+}
+
+#profile-cart #head div {
+    display: inline-block;
+}
+
+#profile-cart #edit-profile {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#profile-cart #edit-profile a {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+    font-family: Pinar !important;
+}
+
+#profile-cart #points {
+    position: absolute;
+    right: 10px;
+    top: 45px;
+}
+
+#profile-cart #points .progress-bar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, var(--primary-color) 77%, transparent 80% 100%),
+    conic-gradient(var(--green) 75%, white 0%);    
+}
+
+#profile-cart #points p {
+  position: absolute;
+  top: 22px;
+  right: 33.1px;
+  margin: 0;    
+  font-family: Pinar !important;
+  color: var(--green);
+}
+
+
+#profile-cart #points p span {
+  display: block;
+}
+
+#profile-cart .profile-picture {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+
+#profile-cart .profile-picture img {
+    width: 120px;
+    height: 120px;
+}
+
+
+#profile-cart #name {
+    margin: 0;
+    margin-top: 70px;
+}
+
+#profile-cart #email {
+    margin: 0;
+    font-variation-settings: "wght" 500;
+}
+
+#profile-cart #foot {
+    padding: 10px 0;
+    margin: 0 5%;
+    margin-top: 40px;
+    border-top: 2px dashed var(--tertiary-color);
+}
+
+#profile-cart #foot h6 {
+    margin: 0;
+    padding: 0 5%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#profile-cart #foot h6:nth-child(odd) {
+    border-left: 2px solid;
+}
+
+
+
+#sources-container {
+    background-color: white;
+    min-height: 80vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 100px;
+}
+
+#sources-container div {
+  display: none;
+}
