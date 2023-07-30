@@ -127,7 +127,7 @@ main {
 #sources-container .head {
   text-align: right;
   display: inline-block;
-  width: 85%;
+  width: 94%;
   margin-top: 30px;
 }
 
@@ -147,11 +147,11 @@ main {
 }
 
 .sources .source {
-  width: 75%;
+  width: 90%;
   display: inline-block;
   margin: 10px 0;
   border-radius: 10px;
-  padding: 10px 5%;
+  padding: 10px 2%;
   background-image: url('../img/svg/books-bg-white.svg');
   background-size: 400px;
   background-color: #ccc;
@@ -163,7 +163,7 @@ main {
 }
 
 .sources .source .details {
-  width: 65%;
+  width: 64%;
   text-align: right;
   vertical-align: top;
 }
@@ -223,3 +223,29 @@ main {
   background: var(--green);
 }
 
+/* RESPONSEIVE */
+@media screen and (min-width: 500px) {
+  #sources-container .head {
+    width: 84%;
+  }
+  
+  .sources .source {
+    width: 80%;
+  }
+
+
+}
+
+@media screen and (min-width: 750px) {
+  #sources-container .head {
+    width: 90%;
+  }
+  
+  .sources .source {
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+}
