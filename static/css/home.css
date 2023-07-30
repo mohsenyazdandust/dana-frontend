@@ -99,22 +99,127 @@ main {
     padding: 0 5%;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: var(--animation-delay);
+  
 }
 
 #profile-cart #foot h6:nth-child(odd) {
     border-left: 2px solid;
 }
 
-
+#profile-cart #foot h6.selected {
+  opacity: 1;
+}
 
 #sources-container {
     background-color: white;
+    background-size: 500px;
+    background-attachment: fixed;
     min-height: 80vh;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     padding-top: 100px;
+  padding-bottom: 40px;
 }
 
-#sources-container div {
-  display: none;
+#sources-container .head {
+  text-align: right;
+  display: inline-block;
+  width: 85%;
+  margin-top: 30px;
 }
+
+#sources-container .head .new {
+  background: var(--blue);
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+#sources-container .head .new img {
+  vertical-align: middle;
+  width: 30px;
+}
+
+.sources .source {
+  width: 75%;
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 10px 5%;
+  background-image: url('../img/svg/books-bg-white.svg');
+  background-size: 400px;
+  background-color: #ccc;
+    box-shadow: 0 0 0.7rem #ddd;
+}
+
+.sources .source >  div {
+  display: inline-block;
+}
+
+.sources .source .details {
+  width: 65%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.sources .source .details h3 {
+  margin: 8px 0;
+  color: black;
+
+}
+
+
+.sources .source .details h4 {
+  margin: 0;
+}
+
+.sources .source .ctas {
+  width: 34%;
+}
+
+.source .ctas a {
+  display: block;
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+
+.source .ctas a:first-child {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.source .ctas a:nth-child(2) {
+  background: var(--yellow);
+  color: white;
+}
+
+.source .ctas a:last-child {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+#uploads {
+    display: none;
+}
+
+#uploads .source .ctas a:first-child {
+  background: var(--blue);
+  color: white;
+}
+
+#uploads .source .ctas a:nth-child(2) {
+  background: var(--red);
+}
+
+#uploads .head .new {
+  background: var(--green);
+}
+
