@@ -133,6 +133,7 @@ main {
 
 #sources-container .head .new {
   background: var(--blue);
+  display: block;
   color: white;
   width: fit-content;
   padding: 10px;
