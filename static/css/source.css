@@ -2,9 +2,9 @@
 main {
     text-align: center;
     background-color: var(--primary-color);
-    background-image: url("../img/icons-background.png");
+    background-image: url("../img/svg/books-bg-white.svg");
     background-attachment: fixed;
-    background-size: 400px;
+    background-size: 350px;
     padding-bottom: 50px;
 }
 
