@@ -24,7 +24,7 @@ main {
 #teacher {
     margin: 0px;
     font-size: 18px;
-    color: gray;
+    color: black;
 }
 
 #preview {
@@ -55,9 +55,8 @@ main {
     max-width: 400px;
     margin: 20px 0;
     box-shadow: 0 0 2rem #0002;
-    backdrop-filter: blur(15px);
     border-radius: 10px;
-    background: linear-gradient(8deg, #fff0, #fff2, #fff3);
+    background: rgba(256, 256, 256, 0.5);
 }
 
 #summary-cart ul {
