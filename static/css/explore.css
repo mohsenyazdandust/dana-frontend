@@ -1,0 +1,81 @@
+main {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+
+#head {
+    padding: 30px 0;
+}
+
+#head h2 {
+    margin: 0;
+    color: white;
+}
+
+#head a {
+  background: var(--purple);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.sources {
+  background-color: var(--primary-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sources .source {
+    width: 90%;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px 2%;
+    background-size: 400px;
+    background-color: var(--secondary-color);
+}
+  
+  .sources .source >  div {
+    display: inline-block;
+  }
+  
+  .sources .source .details {
+    width: 64%;
+    text-align: right;
+    vertical-align: top;
+  }
+  
+  .sources .source .details h3 {
+    margin: 8px 0;
+    color: white;
+  
+  }
+  
+  
+  .sources .source .details h4 {
+    margin: 0;
+    color: black;
+  }
+  
+  .sources .source .ctas {
+    width: 34%;
+  }
+  
+  .source .ctas a {
+    display: block;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 8px 0;
+  }
+  
+  
+  .source .ctas a:first-child {
+    background: var(--yellow);
+    color: white;
+  }
+  
+  
