@@ -151,3 +151,11 @@ main {
 .suggestions li {
     transition: var(--animation-delay);
 }
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 500px) {
+    #form-container {
+        background-size: 200px;
+    }
+}
