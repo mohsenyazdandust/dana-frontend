@@ -65,12 +65,12 @@ main {
     width: calc(100% - 20px);
     border: none;
     border-radius: 10px;
-    backdrop-filter: blur(px);
     background: rgba(256, 256, 256, 0.5);
 }
 
 .input-container textarea {
     height: 120px;
+    font-family: Estedad !important;
 }
 
 .input-container input[type=email],
