@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TODO: SEO -->
+
+    <link rel="stylesheet" href="./static/css/config.css?v=1.0">
+    <link rel="stylesheet" href="./static/css/main.css?v=2.0">
+    <link rel="stylesheet" href="./static/css/publish-source.css?v=1.0">
+    <link rel="stylesheet" href="./static/css/responsive.css?v=1.0">
+
+    <title>Source Page</title>
+</head>
+
+<body>
+    <main>
+        <header id="simple-header">
+            <a id="back-btn" href="#" class="icon">
+                <img src="./static/img/icons/back-tertiary.png" alt="بازگشت">
+            </a>
+        </header>
+        <div id="head">
+            <h2>آپلود منبع برای کمک به بقیه</h2>
+        </div>
+        <div id="form-container">
+            <p><img src="./static/img/icons/blue-hint.svg" alt="">
+                هرچی اطلاعات کامل تر  و درست تر باشن، بقیه راحت تر میتونن ازشون استفاده کنن
+                <br>
+                در ضمن بعد از آپلود، ما یه نگاه کلی به اطلاعات میندازیم که مشکلی پیش نیاد!    
+            </p>
+            <form>
+                <div class="input-container">
+                    <label for="title">عنوان</label>
+                    <input type="text" placeholder="جزوه میان ترم الگوریتم" id="title">
+                </div>
+                <div class="input-container">
+                    <label for="teacher">استاد مربوطه</label>
+                    <input type="text" placeholder="دکتر بوشهریان" id="teacher">
+                </div>
+                <div class="input-container">
+                    <label for="details">توضیحات</label>
+                    <textarea id="details" placeholder="سر فصل ها، نقص ها یا هر نکته ای که فکر میکنی لازمه بقیه بدونن"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="textbook">نوع منبع</label>
+                    <div class="checkbox-container">
+                        <input type="radio" id="textbook" name="type" checked>
+                        <label for="textbook">جزوه</label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="radio" id="question-sample" name="type">
+                        <label for="question-sample">نمونه سوال</label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="radio" id="others" name="type">
+                        <label for="others">غیره</label>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="university">دانشگاه</label>
+                    <input type="text" value="دانشگاه صنعتی شیراز" id="university">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div class="input-container">
+                    <label for="field">رشته</label>
+                    <input type="text" placeholder="مهندسی کامپیوتر" id="field">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div class="input-container">
+                    <label for="term">ترم</label>
+                    <input type="text" placeholder="اول 1401-1402" id="term">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div id="submit-container">
+                    <button type="submit">ثبت<img src="./static/img/icons/confirm.svg" alt=""></button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+<script type='text/javascript' src='./static/js/jquery-3.7.0.min.js'></script>
+<script type='text/javascript' src='./static/js/main.js?v=1.0'></script>
+<script type='text/javascript' src='./static/js/publish-source.js?v=1.0'></script>
+</html>
