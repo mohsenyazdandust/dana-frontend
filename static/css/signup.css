@@ -44,6 +44,7 @@ main {
     display: inline-block;
     width: 100%;
     background-color: white;
+    min-height: 100vh;
 }
 
 #main-side #head {
@@ -72,6 +73,7 @@ main {
     width: 70%;
     margin: 10px 0%;
     padding: 15px 10px;
+    padding-bottom: 10px;
     padding-left: 0;
     border-radius: 10px;
     border: none;
@@ -128,7 +130,7 @@ main {
 #page2 .password-container img {
     position: absolute;
     width: 30px;
-    top: 35px;
+    top: 25px;
     left: 0;
     cursor: pointer;
 }

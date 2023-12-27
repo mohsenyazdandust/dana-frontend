@@ -4,7 +4,7 @@
         height: 70px;
     }
 
-    .icon.profile-picture img {
+    .icon.profile-picture img:not(.badge) {
         width: 60px;
         height: 60px;
     }

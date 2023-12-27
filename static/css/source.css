@@ -89,7 +89,7 @@ main {
 }
 
 /* DETAILS SECTION */
-#details {
+main > #details {
     background: white;
     text-align: right;
     padding: 2px 20px;
@@ -257,7 +257,7 @@ main {
 #buy-btn a {
     display: inline-block;
     width: 90%;
-    max-width: 450px;
+    max-width: 400px;
     color: white;
     background: var(--secondary-color);
     border-radius: 10px;
@@ -268,6 +268,32 @@ main {
 }
 
 
+#buy-btn button {
+  background: var(--blue);
+  color: white;
+  border: none;
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 90%;
+    max-width: 400px;
+}
+
+.profile-picture {
+    position: relative;
+}
+
+.profile-picture .badge {
+    position: absolute;
+    top: -16px;
+    right: -18px;
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(1px 1px 2px white);
+  }
+
 /* RESPONSIVE */
 @media screen and (min-width: 500px) {
     #preview {
@@ -275,7 +301,7 @@ main {
         width: 350px;
     }
 
-    #details {
+    main > #details {
         padding: 10px 50px;
     }
     
@@ -318,6 +344,18 @@ main {
         width: 60px;
         height: 60px;
     }
+
+    .profile-picture .badge {
+        top: -20px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+        filter: drop-shadow(1px 1px 5px white);
+  }
+  #buy-btn button {
+    width: unset;
+  }
+
 }
 
 
